@@ -172,9 +172,14 @@ body {
 
 .section-subtitle {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--headers-names-links-color);
+}
+
+.section .features {
+  color: var(--features-header-contacts-color);
 }
 
 .section-subtitle.work {
@@ -240,14 +245,22 @@ footer {
   list-style: none;
 }
 
-button {
-  color: var(--headers-names-links-color);
-  background-color: var(--features-header-contacts-color);
+.filter-button {
   font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-color: transparent;
+  border-radius: 4px;
+  color: var(--headers-names-links-color);
+  background-color: var(--team-background-portfolio-filters-color);
 }
 
-button:hover,
-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--body-background-button-font-color);
   background-color: var(--button-background-links-color);
 }
